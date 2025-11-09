@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Skill Hub Academy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link {% if page == 'home' %}active{% endif %}" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link {% if page == 'courses' %}active{% endif %}" href="about.html">Courses</a></li>
+        <li class="nav-item"><a class="nav-link {% if page == 'contact' %}active{% endif %}" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
